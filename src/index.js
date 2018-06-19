@@ -10,9 +10,9 @@ class Index extends Component {
       <div>
         <Router history={browserHistory}>
           <Route path="/" component={App}>
-            <IndexRoute path="Page1" component={Page1} />
-            <Route path="Page1" component={Page1} />
-            <Route path="Page2" component={Page2} />
+            <IndexRoute path="/page1" component={Page1} />
+            <Route path="/page1" component={Page1} />
+            <Route path="/page2" component={Page2} />
             <Route path="*" component={NotFound} />
           </Route>
         </Router>
